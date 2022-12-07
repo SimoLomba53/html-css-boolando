@@ -1,0 +1,37 @@
+body{
+    background-color: white;
+}
+
+header{
+    background-color:orange;
+    max-height:80px;
+    width:auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.logo{
+    width:auto;
+    height:40px;
+}
+   
+header span{
+    color: white;
+
+}
+
+.simboli{
+    color:white;
+}
+    
+/*FINE HEADDER*/
+/*INIZIO SHOP*/
+
+.block{
+    background-color:black;
+    width:1450px;
+    height:1500px;
+    margin:auto;
+    margin-top:80px;
+}
