@@ -18,6 +18,7 @@ header{
    
 header span{
     color: white;
+    font-weight:bold;
 
 }
 
@@ -42,11 +43,34 @@ header span{
     width:calc(100%/4);
     margin-top:80px;
     position:relative;
+    margin-bottom:-180px;
 }
 
-img{
+.immagine-1{
     width:500px;
+    display: block;
     
+}
+
+.immagine-2{
+    width:500px;
+    display:none;
+}
+
+#cambio-immagine:hover .immagine-1{
+    display: none;
+}
+
+#cambio-immagine:hover .immagine-2{
+    display:block;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.red-price{
+    color:red;
 }
 
 .sconto{
@@ -57,6 +81,10 @@ img{
     position:absolute;
     bottom:150px;
 
+}
+
+.crossed-cost{
+   text-decoration: line-through;
 }
 
 .sostenibilita{
@@ -78,3 +106,20 @@ img{
     width:100px;
 
 }
+
+.cuore{
+    position:absolute;
+    top:30px;
+    left:460px;
+    background-color:white;
+    width:40px;
+    height:40px;
+    text-align:center;
+    font-size:35px;
+}
+
+.cuore:hover{
+    color: red;
+}
+
+
