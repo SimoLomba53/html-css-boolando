@@ -31,8 +31,7 @@ header span{
 .block{
     width:1450px;
     height:1500px;
-    margin:auto;
-    margin-top:0px; 
+    display:flex;
 }
 
 .column{
